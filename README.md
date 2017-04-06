@@ -1,5 +1,3 @@
-## Bash
-https://github.com/Idnan/bash-guide
+[Bash-guide](https://github.com/Idnan/bash-guide)
 
-## Chrome DevTools
-http://discover-devtools.codeschool.com/
+[Chrome discover-devtools](http://discover-devtools.codeschool.com/)
