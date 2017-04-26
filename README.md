@@ -6,7 +6,9 @@ https://github.com/Idnan/bash-guide
 ## 2. TOOLS
 
 ### Charts
+highcharts
 https://www.highcharts.com/
+chartjs
 http://www.chartjs.org/
 
 ### Chrome discover-devtools
