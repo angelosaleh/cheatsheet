@@ -33,12 +33,14 @@
   [Php the right way](http://www.phptherightway.com/)
 
 * #### Recover deleted files on linux redhat
+  ```bash
   sudo yum install testdisk
   sudo photorec
   select disk
   choose "File Opt"
   deselect all and select dbf
   start
+  ```
 
 * #### Responsive HTML5 and CSS3 Site Templates
   [Responsive HTML5 and CSS3 Site Templates](https://html5up.net/)
