@@ -5,6 +5,8 @@
 
 ## 2. TOOLS
 * * *
+### [Blockchain demo](https://anders.com/blockchain/)
+* * *
 ### Charts
 [highcharts](https://www.highcharts.com/)
 [chartjs](http://www.chartjs.org/)
@@ -46,6 +48,45 @@ start
 ```
 * * *
 ### [Responsive HTML5 and CSS3 Site Templates](https://html5up.net/)
+* * *
+### Server free in the cloud
+First two hours are free
+[Dply.co](https://dply.co/)
+* * *
+### Tcpdump - Tshark
+To record all TCP traffic to port 80 in the interface wlan0 and senf it to the file port-80-recording.pcap.
+```bash
+sudo tcpdump -i wlan0  \
+               src port 80 or dst port 80 \
+               -w port-80-recording.pcap
+```
+Then analyse the file with wireshark, click on Statistics -> Conversations to organize the packets into TCP sessions.
+Here are more options on pcap filter rules.
+```bash
+stuff being sent to port 80:
+    dst port 80
+you can use booleans!
+    src port 80 or dst port 80
+here's how to filter on IP:
+    ip src 66.66.66.66
+```
+To spy on all GET requests
+```bash
+sudo tshark -i any \
+            -Y 'http.request.method == "GET"' \
+            -T fields \
+            -e http.request.method -e http.request.uri -e ip.dst
+GET   /hello.html     54.186.13.33
+GET   /awesome.html   172.217.3.131
+GET   /               172.217.3.131
+```
+Example to know which Mongo collections were being queried from a specific machine
+```bash
+sudo tshark -i any \
+            -f src port $mongo_port or dst port $mongo_port \
+            -T fields \
+            -e ip.dst -e mongo.full_collection_name
+```
 * * *
 ### [Transfer.sh file sharing](https://transfer.sh/)
 * * *
