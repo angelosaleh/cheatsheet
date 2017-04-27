@@ -1,7 +1,6 @@
 ## 1. BASH
 
-### Bash-guide
-https://github.com/Idnan/bash-guide
+### [Bash-guide](https://github.com/Idnan/bash-guide)
 
 ## 2. TOOLS
 
