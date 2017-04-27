@@ -5,12 +5,17 @@
 
 ## 2. TOOLS
 
-* #### Charts
-  [highcharts](https://www.highcharts.com/)
-  [chartjs](http://www.chartjs.org/)
+#### Charts
+[highcharts](https://www.highcharts.com/)
 
-* #### Chrome discover-devtools
-  [Chrome discover-devtools](http://discover-devtools.codeschool.com/)
+[chartjs](http://www.chartjs.org/)
+
+* * *
+
+#### [Chrome discover-devtools](http://discover-devtools.codeschool.com/)
+
+* * *
+
 
 * #### Emails and SMS from command line
   E-mail:
@@ -54,8 +59,7 @@
 
 ## 3.NETWORKING
 
-* #### Vlan configuration
-  [Vlan configuration](http://www.cristalab.com/videotutoriales/introduccion-a-vlan-c109064l/)
+* #### [Vlan configuration](http://www.cristalab.com/videotutoriales/introduccion-a-vlan-c109064l/)
 
 ## 4.FUN
 
