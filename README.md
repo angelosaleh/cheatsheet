@@ -54,7 +54,7 @@ First two hours are free
 [Dply.co](https://dply.co/)
 * * *
 ### Tcpdump - Tshark
-To record all TCP traffic to port 80 in the interface wlan0 and senf it to the file port-80-recording.pcap.
+To record all TCP traffic to port 80 in the interface wlan0 and send it to the file port-80-recording.pcap.
 ```bash
 sudo tcpdump -i wlan0  \
                src port 80 or dst port 80 \
@@ -67,7 +67,7 @@ stuff being sent to port 80:
     dst port 80
 you can use booleans!
     src port 80 or dst port 80
-here's how to filter on IP:
+here is how to filter on IP:
     ip src 66.66.66.66
 ```
 To spy on all GET requests
