@@ -1,9 +1,5 @@
-## 1. BASH
 * * *
 ### [Bash-guide](https://github.com/Idnan/bash-guide)
-* * *
-
-## 2. TOOLS
 * * *
 ### [Blockchain demo](https://anders.com/blockchain/)
 * * *
@@ -28,6 +24,27 @@ SMS:
 echo 'Sent from my terminal!' | mail -s 'SMS sent from linux' '81812345678@vtext.com'
 ```
 Here is the [list of carries' domains](https://en.wikipedia.org/wiki/SMS_gateway#Email_clients)
+* * *
+### Git
+To delete the last commit in a remote, Where git interprets x^ as the parent of x and + as a forced non-fastforward push.
+```bash
+git push origin +commithash^:master
+```
+
+To delete the second last or older commit
+rewrite history do an interactive rebase down to the parent of the offending commit:
+```bash
+git rebase -i committodel^
+```
+This will open an editor and show a list of all commits since the commit we want to get rid of:
+```bash
+pick commititodel
+pick dsadhj278
+```
+Remove the line with the offending commit, resolve any conflicts if there are any, force it to the remote and done:
+```bash
+ git push origin -f
+```
 * * *
 ### [Google api php-client](https://github.com/google/google-api-php-client)
 * * *
@@ -88,6 +105,8 @@ sudo tshark -i any \
             -e ip.dst -e mongo.full_collection_name
 ```
 * * *
+### [The Simpsons in CSS](http://pattle.github.io/simpsons-in-css/)
+* * *
 ### [Transfer.sh file sharing](https://transfer.sh/)
 * * *
 ### Tunnel ssh
@@ -97,13 +116,5 @@ ssh -o TCPKeepAlive=yes -R 6666:localhost:22 user@serverout
 ```
 Then ssh to serverout to port 6666 you will be connected to the host behind the firewall
 * * *
-
-## 3.NETWORKING
-* * *
 ### [Vlan configuration](http://www.cristalab.com/videotutoriales/introduccion-a-vlan-c109064l/)
-* * *
-
-## 4.FUN
-* * *
-### [The Simpsons in CSS](http://pattle.github.io/simpsons-in-css/)
 * * *
