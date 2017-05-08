@@ -1,11 +1,14 @@
 * * *
+### [Background burner](https://burner.bonanza.com/)
+* * *
 ### [Bash-guide](https://github.com/Idnan/bash-guide)
 * * *
 ### [Blockchain demo](https://anders.com/blockchain/)
 * * *
-### Charts
+### Charts & online diagram
 [highcharts](https://www.highcharts.com/)
 [chartjs](http://www.chartjs.org/)
+[Flow chart & online diagram](https://www.draw.io/)
 * * *
 ### [Chrome discover-devtools](http://discover-devtools.codeschool.com/)
 * * *
@@ -24,6 +27,8 @@ SMS:
 echo 'Sent from my terminal!' | mail -s 'SMS sent from linux' '81812345678@vtext.com'
 ```
 Here is the [list of carries' domains](https://en.wikipedia.org/wiki/SMS_gateway#Email_clients)
+* * *
+### [FirewallD on CentOS](https://www.linode.com/docs/security/firewalls/introduction-to-firewalld-on-centos)
 * * *
 ### Git
 To delete the last commit in a remote, Where git interprets x^ as the parent of x and + as a forced non-fastforward push.
@@ -48,11 +53,22 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 * * *
 ### [Google api php-client](https://github.com/google/google-api-php-client)
 * * *
+### [How-tos](https://www.howtoforge.com/)
+* * *
+### [Ip command cheatsheet](https://access.redhat.com/articles/ip-command-cheat-sheet)
+* * *
 ### [loading.io - SVG + GIF Ajax Loading Icons](https://loading.io/)
 * * *
 ### [Phone details and models](http://www.gsmarena.com/)
 * * *
-### [Php the right way](http://www.phptherightway.com/)
+### PHP
+[Php the right way](http://www.phptherightway.com/)
+[How to install PHP 5.6 or 7 on CentOS 7.0 x64](https://www.digitalocean.com/community/questions/how-to-install-php-5-6-on-centos-7-0-x64)
+* * *
+### Raid software
+[Growing an Existing RAID Array and Removing Failed Disks in Raid](https://www.tecmint.com/grow-raid-array-in-linux/)
+[Mdadm Cheat Sheet](http://www.ducea.com/2009/03/08/mdadm-cheat-sheet/)
+[How To Set Up Software RAID1 on an existing CentOS/RedHat 6.0 System](https://www.howtoforge.com/how-to-create-a-raid1-setup-on-an-existing-centos-redhat-6.0-system)
 * * *
 ### Recover deleted files on linux redhat
 ```bash
@@ -64,11 +80,15 @@ deselect all and select dbf
 start
 ```
 * * *
+### [Regexp tester](http://www.regexpal.com/)
+* * *
 ### [Responsive HTML5 and CSS3 Site Templates](https://html5up.net/)
 * * *
 ### Server free in the cloud
 First two hours are free
 [Dply.co](https://dply.co/)
+* * *
+### [SSL Certificate on Apache for CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-apache-for-centos-7)
 * * *
 ### Tcpdump - Tshark
 To record all TCP traffic to port 80 in the interface wlan0 and send it to the file port-80-recording.pcap.
