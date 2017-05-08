@@ -65,11 +65,14 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 * * *
 ### PHP
 [Php the right way](http://www.phptherightway.com/)
+
 [How to install PHP 5.6 or 7 on CentOS 7.0 x64](https://www.digitalocean.com/community/questions/how-to-install-php-5-6-on-centos-7-0-x64)
 * * *
 ### Raid software
 [Growing an Existing RAID Array and Removing Failed Disks in Raid](https://www.tecmint.com/grow-raid-array-in-linux/)
+
 [Mdadm Cheat Sheet](http://www.ducea.com/2009/03/08/mdadm-cheat-sheet/)
+
 [How To Set Up Software RAID1 on an existing CentOS/RedHat 6.0 System](https://www.howtoforge.com/how-to-create-a-raid1-setup-on-an-existing-centos-redhat-6.0-system)
 * * *
 ### Recover deleted files on linux redhat
