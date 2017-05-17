@@ -14,6 +14,23 @@
 * * *
 ### [Chrome discover-devtools](http://discover-devtools.codeschool.com/)
 * * *
+### Cool Linux commands
+```bash
+echo what are you doing | festival --tts
+```
+```bash
+sl
+```
+```bash
+cowsay
+```
+```bash
+curl -L http://bit.ly/10hA8iC | bash
+```
+```bash
+telnet towel.blinkenlights.nl
+```
+* * *
 ### [Crontab.guru](https://crontab.guru/)
 * * *
 ### Css
@@ -83,6 +100,27 @@ select disk
 choose "File Opt"
 deselect all and select dbf
 start
+```
+* * *
+### Recover Linux Root password
+- Start the system and in the GRUB2 boot menu use e key to edit your default boot item
+- On "rhgb quiet" keywords replace them with "init=/bin/bash"
+- Press "CTRL + x" to start booting your RHEL 7 system into a single mode
+- Remount / partition with Read/Write flag 
+```bash
+mount -o remount,rw /" 
+```
+- Change the root password
+```bash
+passwd
+```
+- SELinux relabeling
+```bash
+touch /.autorelabel
+```
+- Reboot System
+```bash
+exec /sbin/init
 ```
 * * *
 ### [Regexp tester](http://www.regexpal.com/)
