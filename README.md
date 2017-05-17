@@ -85,6 +85,7 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 [Php the right way](http://www.phptherightway.com/)
 
 [How to install PHP 5.6 or 7 on CentOS 7.0 x64](https://www.digitalocean.com/community/questions/how-to-install-php-5-6-on-centos-7-0-x64)
+
 ----
 ### Raid software
 [Growing an Existing RAID Array and Removing Failed Disks in Raid](https://www.tecmint.com/grow-raid-array-in-linux/)
