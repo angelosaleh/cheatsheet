@@ -108,7 +108,7 @@ start
 - Press "CTRL + x" to start booting your RHEL 7 system into a single mode
 - Remount / partition with Read/Write flag 
 ```bash
-mount -o remount,rw /" 
+mount -o remount,rw /
 ```
 - Change the root password
 ```bash
