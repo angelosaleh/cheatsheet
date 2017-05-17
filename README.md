@@ -36,6 +36,7 @@ telnet towel.blinkenlights.nl
 ----
 ### Css
 [You might not need javascript](http://youmightnotneedjs.com/)
+
 ----
 ### Emails and SMS from command line
 E-mail:
@@ -47,6 +48,7 @@ SMS:
 echo 'Sent from my terminal!' | mail -s 'SMS sent from linux' '81812345678@vtext.com'
 ```
 Here is the [list of carries' domains](https://en.wikipedia.org/wiki/SMS_gateway#Email_clients)
+
 ----
 ### [FirewallD on CentOS](https://www.linode.com/docs/security/firewalls/introduction-to-firewalld-on-centos)
 ----
@@ -73,8 +75,6 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 ----
 ### [Google api php-client](https://github.com/google/google-api-php-client)
 ----
-### [How-tos](https://www.howtoforge.com/)
-----
 ### [Ip command cheatsheet](https://access.redhat.com/articles/ip-command-cheat-sheet)
 ----
 ### [loading.io - SVG + GIF Ajax Loading Icons](https://loading.io/)
@@ -92,6 +92,7 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 [Mdadm Cheat Sheet](http://www.ducea.com/2009/03/08/mdadm-cheat-sheet/)
 
 [How To Set Up Software RAID1 on an existing CentOS/RedHat 6.0 System](https://www.howtoforge.com/how-to-create-a-raid1-setup-on-an-existing-centos-redhat-6.0-system)
+
 ----
 ### Recover deleted files on linux redhat
 ```bash
@@ -131,6 +132,7 @@ exec /sbin/init
 ### Server free in the cloud
 First two hours are free
 [Dply.co](https://dply.co/)
+
 ----
 ### [SSL Certificate on Apache for CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-apache-for-centos-7)
 ----
@@ -179,6 +181,7 @@ From the host behind the firewall
 ssh -o TCPKeepAlive=yes -R 6666:localhost:22 user@serverout
 ```
 Then ssh to serverout to port 6666 you will be connected to the host behind the firewall
+
 ----
 ### [Vlan configuration](http://www.cristalab.com/videotutoriales/introduccion-a-vlan-c109064l/)
 ----
