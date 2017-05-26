@@ -193,7 +193,9 @@ exec /sbin/init
 ```
 ----
 ### [Resize partitions](https://geekpeek.net/resize-filesystem-fdisk-resize2fs/)
+
 Note use gdisk instead of fdisk for partitons bigger than 2TB
+
 ----
 ### [Regexp tester](http://www.regexpal.com/)
 ----
