@@ -95,7 +95,7 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 [How To Set Up Software RAID1 on an existing CentOS/RedHat 6.0 System](https://www.howtoforge.com/how-to-create-a-raid1-setup-on-an-existing-centos-redhat-6.0-system)
 
 Extend size of a linux Raid partition:
-1. Unmount the raid and load the necesary modules
+1.Unmount the raid and load the necesary modules
 ```bash
 sudo mdadm --detail /dev/md1
 /dev/md1:
@@ -113,7 +113,7 @@ modprobe raid5
 modprobe raid6
 modprobe raid10
 ```
-2. Make sure the partition in both disks is code FD00 Linux RAID
+2.Make sure the partition in both disks is code FD00 Linux RAID
 ```bash
 sudo gdisk /dev/sdc
 GPT fdisk (gdisk) version 0.8.6
@@ -141,19 +141,19 @@ Number  Start (sector)    End (sector)  Size       Code  Name
 Command (? for help): 
 
 ```
-3. Grow the array to the maximum size
+3.Grow the array to the maximum size
 ```bash
 mdadm --grow /dev/md1 --size=max
 ```
-4. Check the file system
+4.Check the file system
 ```bash
 e2fsck -f /dev/md1
 ```
-5. Resize the file system
+5.Resize the file system
 ```bash
 resize2fs /dev/md1
 ```
-6. Check the file system again to make sure is ok.
+6.Check the file system again to make sure is ok.
 ```bash
 e2fsck -f /dev/md1
 ```
