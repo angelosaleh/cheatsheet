@@ -72,6 +72,7 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 ```bash
  git push origin -f
 ```
+
 ----
 ### [Google api php-client](https://github.com/google/google-api-php-client)
 ----
@@ -170,6 +171,7 @@ choose "File Opt"
 deselect all and select dbf
 start
 ```
+
 ----
 ### Recover Linux Root password
 - Start the system and in the GRUB2 boot menu use e key to edit your default boot item
@@ -191,6 +193,7 @@ touch /.autorelabel
 ```bash
 exec /sbin/init
 ```
+
 ----
 ### [Resize partitions](https://geekpeek.net/resize-filesystem-fdisk-resize2fs/)
 
