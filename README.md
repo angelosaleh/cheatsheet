@@ -94,6 +94,73 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 
 [How To Set Up Software RAID1 on an existing CentOS/RedHat 6.0 System](https://www.howtoforge.com/how-to-create-a-raid1-setup-on-an-existing-centos-redhat-6.0-system)
 
+Extend size of a linux Raid partition:
+1. Unmount the raid and load the necesary modules
+```bash
+sdc                       8:32   0   7.3T  0 disk  
+└─sdc1                    8:33   0   7.3T  0 part  
+  └─md1                   9:1    0   7.3T  0 raid1 /mnt
+sdd                       8:48   0   7.3T  0 disk  
+└─sdd1                    8:49   0   7.3T  0 part  
+  └─md1                   9:1    0   7.3T  0 raid1 /mnt
+  
+umount /mnt
+
+modprobe md
+modprobe linear
+modprobe multipath
+modprobe raid0
+modprobe raid1
+modprobe raid5
+modprobe raid6
+modprobe raid10
+```
+2. Make sure the partition in both disks is code FD00 Linux RAID
+```bash
+sudo gdisk /dev/sdc
+GPT fdisk (gdisk) version 0.8.6
+
+Partition table scan:
+  MBR: protective
+  BSD: not present
+  APM: not present
+  GPT: present
+
+Found valid GPT with protective MBR; using GPT.
+
+Command (? for help): p
+Disk /dev/sdc: 15628053168 sectors, 7.3 TiB
+Logical sector size: 512 bytes
+Disk identifier (GUID): 71889C52-05F4-488E-9BC4-A295D176C51A
+Partition table holds up to 128 entries
+First usable sector is 34, last usable sector is 15628053134
+Partitions will be aligned on 2048-sector boundaries
+Total free space is 2014 sectors (1007.0 KiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1            2048     15628053134   7.3 TiB     FD00  Linux RAID
+
+Command (? for help): 
+
+```
+3. Grow the array to the maximum size
+```bash
+mdadm --grow /dev/md1 --size=max
+```
+4. Check the file system
+```bash
+e2fsck -f /dev/md1
+```
+5. Resize the file system
+```bash
+resize2fs /dev/md1
+```
+6. Check the file system again to make sure is ok.
+```bash
+e2fsck -f /dev/md1
+```
+Done run lsblk and the size of partitions in the raid should be bigger.
+
 ----
 ### Recover deleted files on linux redhat
 ```bash
@@ -125,6 +192,9 @@ touch /.autorelabel
 ```bash
 exec /sbin/init
 ```
+----
+### [Resize partitions](https://geekpeek.net/resize-filesystem-fdisk-resize2fs/)
+Note use gdisk instead of fdisk for partitons bigger than 2TB
 ----
 ### [Regexp tester](http://www.regexpal.com/)
 ----
