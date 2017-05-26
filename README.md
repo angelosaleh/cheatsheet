@@ -95,6 +95,7 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 [How To Set Up Software RAID1 on an existing CentOS/RedHat 6.0 System](https://www.howtoforge.com/how-to-create-a-raid1-setup-on-an-existing-centos-redhat-6.0-system)
 
 Extend size of a linux Raid partition:
+
 1.Unmount the raid and load the necesary modules
 ```bash
 sudo mdadm --detail /dev/md1
