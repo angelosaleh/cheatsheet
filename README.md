@@ -97,12 +97,10 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 Extend size of a linux Raid partition:
 1. Unmount the raid and load the necesary modules
 ```bash
-sdc                       8:32   0   7.3T  0 disk  
-└─sdc1                    8:33   0   7.3T  0 part  
-  └─md1                   9:1    0   7.3T  0 raid1 /mnt
-sdd                       8:48   0   7.3T  0 disk  
-└─sdd1                    8:49   0   7.3T  0 part  
-  └─md1                   9:1    0   7.3T  0 raid1 /mnt
+sudo mdadm --detail /dev/md1
+/dev/md1:
+  /dev/sdc1
+  /dev/sdd1
   
 umount /mnt
 
