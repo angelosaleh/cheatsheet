@@ -245,6 +245,13 @@ sudo tshark -i any \
             -T fields \
             -e ip.dst -e mongo.full_collection_name
 ```
+Example to use tshark reading a file created with tcpdump, and to get only the http requests to port 80 with the headers.
+Using -V which add output of packet tree (Packet Details).
+Here filtering only for the Origin header
+```bash
+tshark -r port-80-recording.pcap -V -Y 'tcp.port == 80 && http.request' | grep Origin
+```
+
 ----
 ### [The Simpsons in CSS](http://pattle.github.io/simpsons-in-css/)
 ----
