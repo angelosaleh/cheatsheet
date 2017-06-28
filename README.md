@@ -195,9 +195,12 @@ exec /sbin/init
 ```
 
 ----
-### [Resize partitions](https://geekpeek.net/resize-filesystem-fdisk-resize2fs/)
-
+### Resize partitions
 Note use gdisk instead of fdisk for partitons bigger than 2TB
+
+[standard](https://geekpeek.net/resize-filesystem-fdisk-resize2fs/)
+
+[lvm](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/)
 
 ----
 ### [Regexp tester](http://www.regexpal.com/)
