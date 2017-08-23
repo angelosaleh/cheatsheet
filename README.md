@@ -76,6 +76,13 @@ Remove the line with the offending commit, resolve any conflicts if there are an
 ----
 ### [Google api php-client](https://github.com/google/google-api-php-client)
 ----
+### Hardware age, system installtion date
+```bash
+rpm -qi basesystem 
+rpm -qi basesystem | grep "Install Date"
+```
+
+----
 ### [Ip command cheatsheet](https://access.redhat.com/articles/ip-command-cheat-sheet)
 ----
 ### [loading.io - SVG + GIF Ajax Loading Icons](https://loading.io/)
@@ -256,6 +263,15 @@ tshark -r port-80-recording.pcap -V -Y 'tcp.port == 80 && http.request' | grep O
 ```
 
 ----
+### Test memory RAM
+```bash
+yum install memtest86+
+memtest-setup
+grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+After reboot, the GRUB menu will list memtest. Select this item and it will start testing the memory.
+Source https://access.redhat.com/solutions/15693
+
 ### [The Simpsons in CSS](http://pattle.github.io/simpsons-in-css/)
 ----
 ### [Transfer.sh file sharing](https://transfer.sh/)
