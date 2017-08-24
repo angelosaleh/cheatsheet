@@ -186,6 +186,7 @@ start
 RHEL 7
 - On "rhgb quiet" keywords replace them with "init=/bin/bash"
 - Press "CTRL + x" to start booting your RHEL 7 system into a single mode
+
 RHEL 6
 - select the kernel /vmlinuz-... line and press the 'e' key. 
 - Add "single" to the latest line and press Enter to save the changes
