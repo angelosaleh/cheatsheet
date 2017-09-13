@@ -87,6 +87,16 @@ rpm -qi basesystem | grep "Install Date"
 ----
 ### [loading.io - SVG + GIF Ajax Loading Icons](https://loading.io/)
 ----
+### NIC speed
+```bash
+sudo ethtool eth0 | grep Speed
+```
+If command is missing
+```bash
+cat /sys/class/net/<interface>/speed
+```
+
+----
 ### [Phone details and models](http://www.gsmarena.com/)
 ----
 ### PHP
