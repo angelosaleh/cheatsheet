@@ -239,6 +239,29 @@ First two hours are free
 ----
 ### [SSL Certificate on Apache for CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-apache-for-centos-7)
 ----
+### TC Traffic Control in the Linux kernel
+Throttle the Bandwidth of a Linux Network Interface, examples on eth0.
+Add latency, slowing ping times
+```bash
+sudo tc qdisc add dev eth0 root netem delay 500ms
+```
+Now, trying ping again note time=500 ms as desired.
+Throttling a sustained maximum rate, configure Linux to never allow eth0 to use more than 1kbps regardless of port or application.
+```bash
+sudo tc qdisc add dev eth0 handle 1: root htb default 11
+sudo tc class add dev eth0 parent 1: classid 1:1 htb rate 1kbps
+sudo tc class add dev eth0 parent 1:1 classid 1:11 htb rate 1kbps
+```
+To test
+```bash
+wget http://mirrors.thaidns.co.th/centos/7/isos/x86_64/CentOS-7-x86_64-Everything-1708.iso
+```
+Download should be very slow.
+Clearing all tc rules
+```bash
+sudo tc qdisc del dev eth0 root
+```
+----
 ### Tcpdump - Tshark
 To record all TCP traffic to port 80 in the interface wlan0 and send it to the file port-80-recording.pcap.
 ```bash
