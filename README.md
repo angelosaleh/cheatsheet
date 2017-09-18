@@ -241,11 +241,13 @@ First two hours are free
 ----
 ### TC Traffic Control in the Linux kernel
 Throttle the Bandwidth of a Linux Network Interface, examples on eth0.
+
 Add latency, slowing ping times
 ```bash
 sudo tc qdisc add dev eth0 root netem delay 500ms
 ```
 Now, trying ping again note time=500 ms as desired.
+
 Throttling a sustained maximum rate, configure Linux to never allow eth0 to use more than 1kbps regardless of port or application.
 ```bash
 sudo tc qdisc add dev eth0 handle 1: root htb default 11
@@ -257,6 +259,7 @@ To test
 wget http://mirrors.thaidns.co.th/centos/7/isos/x86_64/CentOS-7-x86_64-Everything-1708.iso
 ```
 Download should be very slow.
+
 Clearing all tc rules
 ```bash
 sudo tc qdisc del dev eth0 root
