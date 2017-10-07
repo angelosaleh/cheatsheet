@@ -331,5 +331,5 @@ Then ssh to serverout to port 6666 you will be connected to the host behind the 
 ### [Vlan configuration](http://www.cristalab.com/videotutoriales/introduccion-a-vlan-c109064l/)
 ----
 ### wifi-cracking
-https://github.com/brannondorsey/wifi-cracking
-https://hashes.org/crackers.php
+[wifi-cracking](https://github.com/brannondorsey/wifi-cracking)
+[hashes](https://hashes.org/crackers.php)
