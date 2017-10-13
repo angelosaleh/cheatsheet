@@ -50,6 +50,13 @@ echo 'Sent from my terminal!' | mail -s 'SMS sent from linux' '81812345678@vtext
 Here is the [list of carries' domains](https://en.wikipedia.org/wiki/SMS_gateway#Email_clients)
 
 ----
+### file sharing
+
+[Transfer.sh](https://transfer.sh/)
+
+[firefox Send](https://send.firefox.com/)
+
+----
 ### [FirewallD on CentOS](https://www.linode.com/docs/security/firewalls/introduction-to-firewalld-on-centos)
 ----
 ### Git
@@ -317,8 +324,6 @@ After reboot, the GRUB menu will list memtest. Select this item and it will star
 Source https://access.redhat.com/solutions/15693
 
 ### [The Simpsons in CSS](http://pattle.github.io/simpsons-in-css/)
-----
-### [Transfer.sh file sharing](https://transfer.sh/)
 ----
 ### Tunnel ssh
 From the host behind the firewall
