@@ -50,7 +50,12 @@ echo 'Sent from my terminal!' | mail -s 'SMS sent from linux' '81812345678@vtext
 Here is the [list of carries' domains](https://en.wikipedia.org/wiki/SMS_gateway#Email_clients)
 
 ----
-### file sharing
+### Fax Rocket - The easiest way to send a fax
+
+[Fax Rocket](https://www.faxrocket.com/)
+
+----
+### File sharing
 
 [Transfer.sh](https://transfer.sh/)
 
