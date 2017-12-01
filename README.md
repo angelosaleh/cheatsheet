@@ -342,23 +342,28 @@ Then ssh to serverout to port 6666 you will be connected to the host behind the 
 ----
 ### VPN configuration in macOS
 Install home-brew and run:
-
+```bash
 $ brew cask install tuntap
+```
 Download the file shrewsoft-vpn-client.rb from: https://github.com/Homebrew/homebrew-boneyard/blob/f0f4e1219768afd52d2c6e0d809d7f98ea3ee961/shrewsoft-vpn-client.rb
-run:
-
+```bash
 $ brew install --build-from-source /path_to/shrewsoft-vpn-client.rb --without-gui
+```
 Then run:
-
+```bash
 $ sudo /usr/local/sbin/iked
+```
 Copy the file file.vpn into .ike/sites without extensions
-
+```bash
 $ cp /path_to/file.vpn ~/.ike/sites/file
+```
 Then, start the VPN by running
-
+```bash
 $ ikec -r file
 
 $ c
+```
+
 ----
 ### wifi-cracking
 [wifi-cracking](https://github.com/brannondorsey/wifi-cracking)
