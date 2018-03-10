@@ -242,12 +242,16 @@ Note use gdisk instead of fdisk for partitons bigger than 2TB
 ----
 ### [Regexp tester](http://www.regexpal.com/)
 ----
+### [Regexper Railroad Diagrams](https://regexper.com/)
+----
 ### [Responsive HTML5 and CSS3 Site Templates](https://html5up.net/)
 ----
 ### Server free in the cloud
 First two hours are free
 [Dply.co](https://dply.co/)
 
+----
+### [Server manager](http://cockpit-project.org/)
 ----
 ### [SSL Certificate on Apache for CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-apache-for-centos-7)
 ----
