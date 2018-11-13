@@ -6,11 +6,13 @@
 ### [Blockchain demo](https://anders.com/blockchain/)
 ----
 ### Charts & online diagram
-[highcharts](https://www.highcharts.com/)
+[highcharts](https://www.highcharts.com)
 
-[chartjs](http://www.chartjs.org/)
+[chartjs](http://www.chartjs.org)
 
-[Flow chart & online diagram](https://www.draw.io/)
+[graph-cli](https://github.com/mcastorina/graph-cli)
+
+[Flow chart & online diagram](https://www.draw.io)
 
 ----
 ### [Chrome discover-devtools](http://discover-devtools.codeschool.com/)
@@ -370,6 +372,9 @@ $ ikec -r file
 $ c
 ```
 
+----
+### Web development Standards
+[web.dev](https://web.dev)
 ----
 ### wifi-cracking
 [wifi-cracking](https://github.com/brannondorsey/wifi-cracking)
