@@ -286,7 +286,7 @@ sudo tc qdisc del dev eth0 root
 ### Tcpdump - Tshark
 To record all TCP traffic to port 80 in the interface wlan0 and send it to the file port-80-recording.pcap.
 ```bash
-sudo tcpdump -i wlan0  \
+sudo tcpdump -i wlan0 \
                src port 80 or dst port 80 \
                -w port-80-recording.pcap
 ```
@@ -299,6 +299,8 @@ you can use booleans!
     src port 80 or dst port 80
 here is how to filter on IP:
     ip src 66.66.66.66
+here is how to filter by network:
+    src net 66.66.66.0/24
 ```
 To spy on all GET requests
 ```bash
