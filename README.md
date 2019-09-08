@@ -121,6 +121,12 @@ cat /sys/class/net/<interface>/speed
 [How to install PHP 5.6 or 7 on CentOS 7.0 x64](https://www.digitalocean.com/community/questions/how-to-install-php-5-6-on-centos-7-0-x64)
 
 ----
+### Python
+[Creating PDFs in python](https://www.blog.pythonlibrary.org/2018/06/05/creating-pdfs-with-pyfpdf-and-python/)
+
+[Creating PDFs from html files and sites](https://weasyprint.readthedocs.io/en/latest/index.html)
+
+----
 ### Raid software
 [Growing an Existing RAID Array and Removing Failed Disks in Raid](https://www.tecmint.com/grow-raid-array-in-linux/)
 
