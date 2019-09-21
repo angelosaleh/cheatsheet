@@ -3,6 +3,8 @@
 ----
 ### [Bash-guide](https://github.com/Idnan/bash-guide)
 ----
+### [Bash-bible](https://github.com/dylanaraps/pure-bash-bible)
+----
 ### [explainshell](https://explainshell.com/)
 ----
 ### [Blockchain demo](https://anders.com/blockchain/)
