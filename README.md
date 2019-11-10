@@ -358,6 +358,8 @@ ssh -o TCPKeepAlive=yes -R 6666:localhost:22 user@serverout
 Then ssh to serverout to port 6666 you will be connected to the host behind the firewall
 
 ----
+### [Intermediate vim](https://dn.ht/intermediate-vim/)
+----
 ### [Vlan configuration](http://www.cristalab.com/videotutoriales/introduccion-a-vlan-c109064l/)
 ----
 ### VPN configuration in macOS
