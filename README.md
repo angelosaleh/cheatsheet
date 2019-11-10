@@ -115,6 +115,8 @@ cat /sys/class/net/<interface>/speed
 ```
 
 ----
+### [Notes in linux](https://github.com/tomlockwood/dn/blob/master/dn)
+----
 ### [Phone details and models](http://www.gsmarena.com/)
 ----
 ### PHP
