@@ -1,6 +1,8 @@
 ----
 ### [Background burner](https://burner.bonanza.com/)
 ----
+### Bash-scripts set -euo pipefail
+----
 ### [Bash-guide](https://github.com/Idnan/bash-guide)
 ----
 ### [Bash-bible](https://github.com/dylanaraps/pure-bash-bible)
@@ -140,7 +142,7 @@ cat /sys/class/net/<interface>/speed
 
 Extend size of a linux Raid partition:
 
-1.Unmount the raid and load the necesary modules
+1.Unmount the raid and load the necessary modules
 ```bash
 sudo mdadm --detail /dev/md1
 /dev/md1:
