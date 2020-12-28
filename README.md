@@ -349,6 +349,10 @@ Note use gdisk instead of fdisk for partitons bigger than 2TB
 
 [lvm](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/)
 
+[lvm-root](https://computingforgeeks.com/extending-root-filesystem-using-lvm-linux/)
+
+[kvm](https://computingforgeeks.com/how-to-extend-increase-kvm-virtual-machine-disk-size/)
+
 ----
 ### [Regexp tester](http://www.regexpal.com/)
 ----
