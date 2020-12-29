@@ -365,6 +365,8 @@ First two hours are free
 [Dply.co](https://dply.co/)
 
 ----
+### [SSH Examples](https://hackertarget.com/ssh-examples-tunnels/)
+----
 ### [Server manager](http://cockpit-project.org/)
 ----
 ### [SSL Certificate on Apache for CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-apache-for-centos-7)
@@ -497,6 +499,7 @@ $ c
 ----
 ### Web development Standards
 [web.dev](https://web.dev)
+
 ----
 ### wifi-cracking
 [wifi-cracking](https://github.com/brannondorsey/wifi-cracking)
