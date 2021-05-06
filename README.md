@@ -1,5 +1,5 @@
 ----
-### [Background burner](https://burner.bonanza.com/)
+### [Background remover](https://removebackground.app/)
 ----
 ### [Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
 ```bash
