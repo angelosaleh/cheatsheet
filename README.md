@@ -130,6 +130,14 @@ telnet towel.blinkenlights.nl
 ----
 ### [Crontab.guru](https://crontab.guru/)
 ----
+### Crud options Development
+[DBCore - Rapidly prototype applications powered by your database](https://www.dbcore.org/)
+
+[high power tools for HTML](https://htmx.org/)
+
+[javalin](https://javalin.io/)
+
+----
 ### Css
 [You might not need javascript](http://youmightnotneedjs.com/)
 
@@ -194,6 +202,12 @@ rpm -qi basesystem | grep "Install Date"
 
 ----
 ### [Ip command cheatsheet](https://access.redhat.com/articles/ip-command-cheat-sheet)
+----
+### Kubernetes
+[Kubernetes YAML Generator](https://k8syaml.com/)
+
+[Manage Your Kubernetes Clusters](https://k9scli.io/)
+
 ----
 ### [loading.io - SVG + GIF Ajax Loading Icons](https://loading.io/)
 ----
