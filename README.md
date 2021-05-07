@@ -301,6 +301,8 @@ e2fsck -f /dev/md1
 Done run lsblk and the size of partitions in the raid should be bigger.
 
 ----
+### [pass the standard unix password manager](https://www.thepolyglotdeveloper.com/2018/12/manage-passwords-gpg-command-line-pass/)
+----
 ### Recover deleted files on linux redhat
 ```bash
 sudo yum install testdisk
