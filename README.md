@@ -141,6 +141,8 @@ telnet towel.blinkenlights.nl
 ### Css
 [You might not need javascript](http://youmightnotneedjs.com/)
 
+---
+### [dpaste.com to share pieces of code](https://dpaste.com/)
 ----
 ### [E-commerce](https://nextjs.org/commerce)
 ----
